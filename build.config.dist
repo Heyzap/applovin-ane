@@ -14,4 +14,4 @@ actionscript.dir = ./actionscript
 # The ane will be in the output directory in the root folder (i.e. in ./${output_dir})
 output.dir = ./bin
 
-output.name = InMobi.ane
+output.name = AppLovin.ane

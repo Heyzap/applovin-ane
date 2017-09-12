@@ -1,20 +1,20 @@
 <extension xmlns="http://ns.adobe.com/air/extension/4.0">
-    <id>com.heyzap.sdk.extensions.inmobi</id>
+    <id>com.heyzap.sdk.extensions.applovin</id>
     <versionNumber>1.0</versionNumber>
 
     <platforms> 
         <platform name="Android-ARM">
             <applicationDeployment>
-                <nativeLibrary>libInMobi.jar</nativeLibrary>
-                <initializer>com.heyzap.sdk.extensions.inmobi</initializer>
+                <nativeLibrary>libAppLovin.jar</nativeLibrary>
+                <initializer>com.heyzap.sdk.extensions.applovin</initializer>
             </applicationDeployment>
         </platform>
 
         <platform name="iPhone-ARM">
             <applicationDeployment>
-                <nativeLibrary>libInMobiANE.a</nativeLibrary>
-                <initializer>InMobiANEInitializer</initializer>
-                <finalizer>InMobiANEFinalizer</finalizer>
+                <nativeLibrary>libAppLovinANE.a</nativeLibrary>
+                <initializer>AppLovinANEInitializer</initializer>
+                <finalizer>AppLovinANEFinalizer</finalizer>
             </applicationDeployment>
         </platform>
 

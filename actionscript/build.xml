@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="InMobi ANE Actionscript Build Script" default="all">
+<project name="AppLovin ANE Actionscript Build Script" default="all">
 
     <record name="build.log" loglevel="verbose" action="start" />
 
