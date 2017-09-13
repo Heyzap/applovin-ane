@@ -16,39 +16,13 @@ Pull requests and issues are welcome.
 - If on Android, follow the [integration instructions on Heyzap](https://developers.heyzap.com/docs/ane_setup_and_requirements#step-3-modify-your-application-descriptor) or add the following permissions and activities to your Android Manifest in your application descriptor:
  
 	```xml
-	<uses-permission android:name="android.permission.INTERNET"/>
-	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-  <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+  <!-- Required by AppLovin, and Heyzap Ad Network -->
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-  <!-- Optionally used by AppLovin -->
-  <!-- GET_TASKS only needed for API 14 and lower -->
-  <uses-permission android:name="android.permission.GET_TASKS" />
+  <!-- Required by AppLovin, and Heyzap Ad Network -->
+  <uses-permission android:name="android.permission.INTERNET" />
 
-  <!-- Optionally used by AppLovin -->
-  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-
-  <!-- Optionally used by AppLovin -->
-  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
-  <!-- Optionally used by AppLovin -->
-  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-
-  <!-- Optionally used by AppLovin -->
-  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-
-  <!-- Optionally used by AppLovin -->
-  <uses-permission android:name="android.permission.READ_CALENDAR" />
-
-  <!-- Optionally used by AppLovin -->
-  <uses-permission android:name="android.permission.RECORD_AUDIO" />
-
-  <!-- Optionally used by AppLovin -->
-  <uses-permission android:name="android.permission.VIBRATE" />
-
-  <!-- Optionally used by AppLovin -->
-  <uses-permission android:name="android.permission.WRITE_CALENDAR" />
-
-  <!-- Optionally used by AppLovin -->
+  <!-- Required by AppLovin -->
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	```
 
