@@ -7,7 +7,7 @@ The latest release can be found in [Releases](https://github.com/Heyzap/applovin
 Pull requests and issues are welcome.
 
 #### AppLovin Versions
-- iOS: 7.3.2
+- iOS: 4.3.1
 - Android: 7.3.2
 
 #### Adding to your project
